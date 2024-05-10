@@ -1,0 +1,8 @@
+GET http://localhost:5002/classification
+content-type: application/json
+
+{
+    "text": "I love eating cake, it's delicious.",
+    "template": "The topic of this text is",
+    "classes": ["politics", "economy", "food", "environment", "entertainment"]
+}
